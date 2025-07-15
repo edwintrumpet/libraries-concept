@@ -3,7 +3,7 @@ package hello
 import "testing"
 
 func TestSayHello(t *testing.T) {
-	expectedResponse := "Hello world!"
+	expectedResponse := "Hello, World!"
 
 	res := SayHello()
 	if res != expectedResponse {
